@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-live2d",
   "description": "给你的 Koishi 控制台加上一只可爱的看板娘",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
