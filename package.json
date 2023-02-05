@@ -9,6 +9,20 @@
     "dist"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/koishijs/live2d",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/live2d.git"
+  },
+  "author": "42 <mirrorcy@vip.qq.com>",
+  "maintainer": [
+    "42 <mirrorcy@vip.qq.com>",
+    "Lipraty <i@lonay.me>"
+  ],
+  "contributor": [
+    "42 <mirrorcy@vip.qq.com>",
+    "Lipraty <i@lonay.me>"
+  ],
   "scripts": {
     "build": "tsc -b && koishi-console build"
   },
@@ -18,10 +32,26 @@
     "plugin",
     "live2d"
   ],
+  "koishi": {
+    "description": {
+      "en": "Add a cute waifu to your Koishi console",
+      "zh": "给你的 Koishi 控制台加上一只可爱的看板娘"
+    },
+    "services": {
+      "required": [
+        "console"
+      ]
+    }
+  },
   "peerDependencies": {
-    "koishi": "^4.11.3"
+    "@koishijs/plugin-console": "^5.0.0",
+    "koishi": "^4.10.4"
   },
   "dependencies": {
-    "vue-live2d": "^1.3.1"
+    "@koishijs/client": "^5.1.2",
+    "@koishijs/plugin-console": "^5.1.2",
+    "@types/node": "^18.11.18",
+    "koishi": "^4.11.3",
+    "typescript": "^4.9.4"
   }
 }
