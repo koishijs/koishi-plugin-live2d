@@ -1,0 +1,27 @@
+{
+  "name": "koishi-plugin-live2d",
+  "description": "给你的 Koishi 控制台加上一只可爱的看板娘",
+  "version": "1.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b && koishi-console build"
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "live2d"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.3"
+  },
+  "dependencies": {
+    "vue-live2d": "^1.3.1"
+  }
+}
